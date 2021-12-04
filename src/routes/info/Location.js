@@ -1,7 +1,7 @@
 
 /* global kakao */
 import React, { useEffect } from 'react';
-import { InfoWrapper } from 'globalStyles';
+import { InfoWrapper } from '../../globalStyles';
 
 import { Skeleton } from 'antd';
 import styled from 'styled-components';

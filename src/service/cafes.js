@@ -8,5 +8,5 @@ const getCafeById = (cafe_id) => {
 };
 
 export const cafeService = {
-  getCafeById,
+  getCafeById
 };

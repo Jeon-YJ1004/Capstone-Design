@@ -1,30 +1,40 @@
-import React, { Container,useEffect, useState } from 'react';
+import React, {useEffect, useState } from 'react';
 import { Switch ,Route } from 'react-router-dom';
 import axios from 'axios';
 import { Layout } from 'antd';
+// import { Typography } from '@mui/material';
 
+// import GlobalStyle, { Container } from '../globalStyles';
 import Bg from '../components/background';
 import Searching from '../components/searching';
-import Content from '../components/Content';
+import Content from '../components/content'
 import Cafe_Info
- from './info/cafe_info';
-const { Header, Sider } = Layout;
+ from './info/Cafe_info';
 
-function Main(){
+const { Header} = Layout;
+// const { Title } = Typography;
+function Main(props){
 
   return(
     <div>
       <Header>
-      sweetRoad
+        SweetRoad
       </Header>
-
+      
       <Switch>
-        <Route exact path="/" render={()=>(
+        <Route exact path="/info/:id" />
+        <Route path="/" render={()=>(
           <Layout>
-          <Content /></Layout>)}
+            <Searching/>
+            <Content />
+          </Layout>
+          )}
           />
+{/* 
+          <Route path='/search/:place'component={Searching} exact /> */}
+          
       </Switch>
-     
+      
     </div>
     
   )
