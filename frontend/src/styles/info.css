@@ -1,0 +1,45 @@
+body{
+    font-weight: bolder;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) );
+}
+
+.divider{
+    display: flex;
+    margin-top: 40px;
+    border-top: 1px solid #a1a7e3;
+}
+div.back{
+    height: 80%;
+    width: auto;
+    background-color: #ffffff;
+    background-color: rgba( 255, 255, 255, 0.4 );
+
+}
+
+.location{
+    position: absolute;
+    align-content: center;
+    flex-direction: column;
+}
+.location h1{
+    right: 46%;
+}
+#map {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    width: 80vw;
+}
+.path{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: large;
+    font-weight: bolder;
+}
+
+a#link{
+    color:black;
+}
+

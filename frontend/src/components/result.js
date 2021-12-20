@@ -1,13 +1,9 @@
 /* global kakao */
 import React, {useState, useEffect, useRef, useCallback} from 'react';
 import {withRouter, Link} from 'react-router-dom';
-import {useLocation} from "react-router";
 import axios from 'axios';
 import {Select, Card, Row, Col, Typography, Rate} from 'antd';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-// import CafeInfo from '../routes/info/cafe_info';
-import {Component} from 'react';
-// import Listpage from "./listPage"
+import '../styles/results.css'
 
 const {
     kakao
@@ -18,7 +14,7 @@ const {Option} = Select;
 
 
 function SearchData(pageNumber, params, setWidth) {
-    const {place,gu} = params
+    const {place, gu} = params
     console.log(place)
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(false);
@@ -100,7 +96,7 @@ function SearchData(pageNumber, params, setWidth) {
         setError(false);
         axios({
             method: 'GET',
-            url: `/search?place=${place}&gu=${gu}`,
+            url: `/search?gu=${gu}&place=${place}`,
             params: {page: pageNumber},
             cancelToken: new axios.CancelToken(c => cancel = c)
         }).then(res => {
@@ -134,13 +130,6 @@ function Result(props) {
         setPageNumber(0)
     }, [params])
 
-    // const changeSort = (type) => {
-    //     const {place,gu} = params
-    //     props.history.push({
-    //         pathname: `/search/${place}/${gu}`
-    //     });
-    // }
-
     const observer = useRef()
     const lastDataRef = useCallback(node => {
         if (loading) return
@@ -164,12 +153,8 @@ function Result(props) {
         <Row>
             <Col span={24}>
                 <div id="map" style={{
-                    width: `${width - 100}px`,
-                    height: '40vh',
-                    
-                    
-                }}>
-                </div>
+                    width: `${width - 200}px`
+                }}></div>
             </Col>
             <Col span={24}>
             </Col>
@@ -178,7 +163,7 @@ function Result(props) {
                     if (data.length === index + 1) {
                         return (
                             <div className="listItem" key={index} ref={lastDataRef}>
-                                <Card>
+                                <Card bordered={false} >
                                     <Row>
                                         <Col span={18}>
                                             <div className="info" onClick={() => onCafeClick(d)}>
@@ -187,7 +172,7 @@ function Result(props) {
                                             </div>
                                         </Col>
                                         <Col span={6}>
-                                            <Rate allowHalf disabled defaultValue={d.score}/>
+                                            {/*<Rate allowHalf disabled defaultValue={d.score}/>*/}
                                         </Col>
                                     </Row>
                                 </Card>
@@ -199,16 +184,13 @@ function Result(props) {
                                 <Card>
                                     <Row>
                                         <Col span={18}>
-                                            {/* <div className="img-div">
-                                    <img src={d.img_path ? `http://${d.img_path}` : "https://1.bp.blogspot.com/-ZO8wGSRzFBA/YSnWa5QV6ZI/AAAAAAAAD-Y/3n5lSJwrx-Yh3McA1GpGCg6POSjrvsPPwCLcBGAsYHQ/s800/noimage.png"} alt={d.name} />
-                                </div> */}
                                             <div className="info" onClick={() => onCafeClick(d)}>
-                                                <Title level={2} style={{margin: 0, color: "#aaaa"}}>{d.name}</Title>
+                                                <Title level={2} style={{margin: 0}}>{d.name}</Title>
                                                 <p>{d.address}</p>
                                             </div>
                                         </Col>
                                         <Col span={6}>
-                                            <Rate allowHalf disabled defaultValue={d.score}/>
+                                            {/*<Rate allowHalf disabled defaultValue={d.score}/>*/}
                                         </Col>
                                     </Row>
                                 </Card>
@@ -220,4 +202,5 @@ function Result(props) {
         </Row>
     )
 }
+
 export default withRouter(Result)

@@ -2,7 +2,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import styled from 'styled-components';
 
 export const TitleContainer = styled.div`
-  margin-top: 5vh;
+  margin-top: 10vh;
   margin-bottom: -1rem;
   display: flex;
   justify-content: space-between;
@@ -11,26 +11,27 @@ export const TitleContainer = styled.div`
 export const NameContainer = styled.div`
   display: flex;
   align-items: center;
+  margin-left:50px;
+  height:40px;
+  width:auto;
 `;
 export const Name = styled.h1`
   display: inline-block;
-  color: var(--main-color);
   font-weight: 700;
   font-size: 1.8rem;
-  margin-right: 0.8rem;
+  margin-left: 0.8rem;
+  
+  
 `;
-export const SubName = styled.span`
-  margin-right: 1rem;
-  opacity: 0.8;
-`;
-
 export const StarContainer = styled.div`
   margin-top: -0.6rem;
+  display: inline-block;
 `;
 export const StarIcon = styled(FontAwesomeIcon)`
-  color: var(--yellow-color);
+  color: yellow;
 `;
 export const InfoList = styled.ul`
+  margin-top:50px;
   list-style: none;
   display: flex;
   margin-bottom: 3rem;
@@ -51,20 +52,13 @@ export const InfoText = styled.span`
   display: inline-block;
   margin-left: 0.5rem;
 `;
-export const FlexContainer = styled.div`
-  display: inline-flex;
-  justify-content: space-between;
-  width: 100%;
-  @media (max-width: 768px) {
-    flex-direction: column;
-  }
-`;
-export const Locationpath = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: 30vw;
-  @media (max-width: 768px) {
-    order: 1;
-    width: 100%;
-  }
-`;
+
+// export const Locationpath = styled.div`
+//   display: flex;
+//   flex-direction: column;
+//   width: 70vw;
+//   @media (max-width: 768px) {
+//     order: 1;
+//     width: 100%;
+//   }
+// `;

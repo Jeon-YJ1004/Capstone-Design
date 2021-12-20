@@ -6,7 +6,7 @@ import Result from './result'
 function Content() {
     return (
         <Switch>
-            <Route path='/' exact render={() => <MapContainer />} />
+            {/* <Route path='/' exact render={() => <MapContainer />} /> */}
             <Route path={'/search/:gu/:place'} render={() => <Result/>}/>
         </Switch>
     )

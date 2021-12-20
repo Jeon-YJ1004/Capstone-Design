@@ -1,0 +1,479 @@
+[
+  {
+    "Name": "어반플랜트",
+    "Score": 4.2,
+    "Time": "매일 10:00 ~ 22:00",
+    "Link": "https://place.map.kakao.com/447132083",
+    "Address": " 서울 마포구 독막로4길 3 1,2층(지번) 합정동 363-28",
+    "Latitude": 37.5478524,
+    "Longitude": 126.9171527
+  },
+  {
+    "Name": "프릳츠 도화점",
+    "Score": 3.8,
+    "Time": "토,일 10:00 ~ 22:00",
+    "Link": "https://place.map.kakao.com/24529429",
+    "Address": " 서울 마포구 새창로2길 17(지번) 도화동 179-9",
+    "Latitude": 37.5409755,
+    "Longitude": 126.9490468
+  },
+  {
+    "Name": "피오니 홍대점",
+    "Score": 3.8,
+    "Time": "매일 12:00 ~ 21:00",
+    "Link": "https://place.map.kakao.com/26235884",
+    "Address": " 서울 마포구 독막로7길 51 1층(지번) 서교동 395-78",
+    "Latitude": 37.5500682,
+    "Longitude": 126.9197235
+  },
+  {
+    "Name": "땡스오트 연남점",
+    "Score": 4.2,
+    "Time": "매일 11:00 ~ 21:00",
+    "Link": "https://place.map.kakao.com/966554753",
+    "Address": " 서울 마포구 성미산로23길 68(지번) 연남동 375-113",
+    "Latitude": 37.566223,
+    "Longitude": 126.9198663
+  },
+  {
+    "Name": "비파티세리 공덕점",
+    "Score": 4.1,
+    "Time": "매일 10:00 ~ 22:00",
+    "Link": "https://place.map.kakao.com/922091993",
+    "Address": " 서울 마포구 마포대로14길 4 1층(지번) 공덕동 105-67",
+    "Latitude": 37.5485923,
+    "Longitude": 126.9550701
+  },
+  {
+    "Name": "레이어드 연남점",
+    "Score": 2.7,
+    "Time": "매일 11:00 ~ 23:00",
+    "Link": "https://place.map.kakao.com/502958473",
+    "Address": " 서울 마포구 성미산로 161-4(지번) 연남동 223-20",
+    "Latitude": 37.5649551,
+    "Longitude": 126.9241766
+  },
+  {
+    "Name": "앤트러사이트 서교점",
+    "Score": 3.5,
+    "Time": "매일 09:00 ~ 22:00",
+    "Link": "https://place.map.kakao.com/657926243",
+    "Address": " 서울 마포구 월드컵로12길 11(지번) 서교동 475-22",
+    "Latitude": 37.5554102,
+    "Longitude": 126.9116595
+  },
+  {
+    "Name": "943킹스크로스",
+    "Score": 3.7,
+    "Time": "금~일 11:30 ~ 22:00",
+    "Link": "https://place.map.kakao.com/53292857",
+    "Address": " 서울 마포구 양화로16길 24(지번) 서교동 369-1",
+    "Latitude": 37.5529341,
+    "Longitude": 126.9207822
+  },
+  {
+    "Name": "포비 합정점",
+    "Score": 3.7,
+    "Time": "매일 10:30 ~ 22:30",
+    "Link": "https://place.map.kakao.com/1513265709",
+    "Address": " 서울 마포구 양화로3길 66(지번) 합정동 426-18",
+    "Latitude": 37.5519156,
+    "Longitude": 126.911029
+  },
+  {
+    "Name": "당인리책발전소",
+    "Score": 3.4,
+    "Time": "매일 10:00 ~ 22:00",
+    "Link": "https://place.map.kakao.com/123575123",
+    "Address": " 서울 마포구 월드컵로14길 10-8 1층(지번) 서교동 475-26",
+    "Latitude": 37.5556393,
+    "Longitude": 126.9111004
+  },
+  {
+    "Name": "테일러커피 연남1호점",
+    "Score": 3.8,
+    "Time": "매일 10:00 ~ 22:00",
+    "Link": "https://place.map.kakao.com/27508963",
+    "Address": " 서울 마포구 성미산로 189 1층(지번) 연남동 224-41",
+    "Latitude": 37.5630577,
+    "Longitude": 126.9263647
+  },
+  {
+    "Name": "앤트러사이트 합정점",
+    "Score": 3.5,
+    "Time": "월,화,수,목,금,일 09:00 ~ 23:00",
+    "Link": "https://place.map.kakao.com/12518512",
+    "Address": " 서울 마포구 토정로5길 10(지번) 합정동 357-6",
+    "Latitude": 37.5458006,
+    "Longitude": 126.9183208
+  },
+  {
+    "Name": "1984",
+    "Score": 3.8,
+    "Time": "매일 10:00 ~ 24:00",
+    "Link": "https://place.map.kakao.com/23634722",
+    "Address": " 서울 마포구 동교로 194 혜원빌딩 1층(지번) 동교동 158-24",
+    "Latitude": 37.5573343,
+    "Longitude": 126.9228434
+  },
+  {
+    "Name": "브런치가",
+    "Score": 2.6,
+    "Time": "매일 09:00 ~ 23:00",
+    "Link": "https://place.map.kakao.com/1710643353",
+    "Address": " 서울 마포구 월드컵북로4길 39(지번) 동교동 204-29",
+    "Latitude": 37.558049,
+    "Longitude": 126.9214453
+  },
+  {
+    "Name": "빈브라더스 합정점",
+    "Score": 4.3,
+    "Time": "매일 11:00 ~ 21:00",
+    "Link": "https://place.map.kakao.com/24855092",
+    "Address": " 서울 마포구 토정로 35-1(지번) 합정동 368-3",
+    "Latitude": 37.5456779,
+    "Longitude": 126.914965
+  },
+  {
+    "Name": "작당모의",
+    "Score": 3.2,
+    "Time": "매일 12:00 ~ 21:00",
+    "Link": "https://place.map.kakao.com/500916307",
+    "Address": " 서울 마포구 동교로32길 19 1층(지번) 연남동 381-15",
+    "Latitude": 37.5605781,
+    "Longitude": 126.9253805
+  },
+  {
+    "Name": "딩가케이크",
+    "Score": 2.6,
+    "Time": "매일 11:30 ~ 21:00",
+    "Link": "https://place.map.kakao.com/320756645",
+    "Address": " 서울 마포구 동교로29길 68(지번) 연남동 252-18",
+    "Latitude": 37.5633608,
+    "Longitude": 126.9220546
+  },
+  {
+    "Name": "톤앤매너",
+    "Score": 4.3,
+    "Time": "매일 12:00 ~ 21:00",
+    "Link": "https://place.map.kakao.com/1960387368",
+    "Address": " 서울 마포구 와우산로29가길 13 1층(지번) 서교동 337-10",
+    "Latitude": 37.554225,
+    "Longitude": 126.9286678
+  },
+  {
+    "Name": "카페스콘",
+    "Score": 3.4,
+    "Time": "매일 10:00 ~ 22:00",
+    "Link": "https://place.map.kakao.com/975758911",
+    "Address": " 서울 마포구 성미산로 172(지번) 연남동 239-4",
+    "Latitude": 37.5640582,
+    "Longitude": 126.9247272
+  },
+  {
+    "Name": "카페밤비",
+    "Score": 3.3,
+    "Time": "매일 12:00 ~ 21:00",
+    "Link": "https://place.map.kakao.com/1724856950",
+    "Address": " 서울 마포구 동교로9길 36 1층(지번) 망원동 378-17",
+    "Latitude": 37.5554555,
+    "Longitude": 126.9098253
+  },
+  {
+    "Name": "앤디스커피",
+    "Score": 3.6,
+    "Time": "토,일 11:00 ~ 23:00",
+    "Link": "https://place.map.kakao.com/1737597646",
+    "Address": " 서울 마포구 와우산로35길 75 2층(지번) 서교동 330-19",
+    "Latitude": 37.5563616,
+    "Longitude": 126.9267087
+  },
+  {
+    "Name": "모아새",
+    "Score": 3.6,
+    "Time": "수~일 13:00 ~ 24:00",
+    "Link": "https://place.map.kakao.com/1419330175",
+    "Address": " 서울 마포구 포은로 71 1층(지번) 망원동 395-17",
+    "Latitude": 37.5534541,
+    "Longitude": 126.9059092
+  },
+  {
+    "Name": "테일러커피 서교점",
+    "Score": 4.2,
+    "Time": "매일 11:00 ~ 22:00",
+    "Link": "https://place.map.kakao.com/27248379",
+    "Address": " 서울 마포구 와우산로27길 7 2층(지번) 서교동 338-1",
+    "Latitude": 37.5537662,
+    "Longitude": 126.9276536
+  },
+  {
+    "Name": "딥블루레이크 커피로스터스",
+    "Score": 4.2,
+    "Time": "매일 11:00 ~ 22:00",
+    "Link": "https://place.map.kakao.com/27481601",
+    "Address": " 서울 마포구 포은로6길 11(지번) 망원동 411-12",
+    "Latitude": 37.5557753,
+    "Longitude": 126.9056354
+  },
+  {
+    "Name": "랑데자뷰 상수점",
+    "Score": 3.7,
+    "Time": "매일 12:00 ~ 00:00",
+    "Link": "https://place.map.kakao.com/1902772928",
+    "Address": " 서울 마포구 와우산로13길 49(지번) 상수동 316-1",
+    "Latitude": 37.5484158,
+    "Longitude": 126.9208247
+  },
+  {
+    "Name": "커피리브레 연남점",
+    "Score": 3.4,
+    "Time": "영업시간 매일 11:00 ~ 20:00",
+    "Link": "https://place.map.kakao.com/11553130",
+    "Address": " 서울 마포구 성미산로 200(지번) 연남동 227-38",
+    "Latitude": 37.5621557,
+    "Longitude": 126.9269515
+  },
+  {
+    "Name": "오츠에스프레소",
+    "Score": 4.5,
+    "Time": "영업시간 토,일 12:00 ~ 20:00",
+    "Link": "https://place.map.kakao.com/26485620",
+    "Address": " 서울 마포구 독막로14길 32 지하 1층(지번) 상수동 328-2",
+    "Latitude": 37.547439,
+    "Longitude": 126.9218632
+  },
+  {
+    "Name": "얼스어스",
+    "Score": 3.8,
+    "Time": "월,수,목,금,토,일 12:00 ~ 21:00",
+    "Link": "https://place.map.kakao.com/111850276",
+    "Address": " 서울 마포구 성미산로 150(지번) 연남동 239-49",
+    "Latitude": 37.5641006,
+    "Longitude": 126.9232427
+  },
+  {
+    "Name": "밤부베이커리&브루잉",
+    "Score": 3.4,
+    "Time": "매일 11:00 ~ 22:30",
+    "Link": "https://place.map.kakao.com/2082554607",
+    "Address": " 서울 마포구 월드컵로5길 33-23(지번) 합정동 386-11",
+    "Latitude": 37.5505802,
+    "Longitude": 126.9109228
+  },
+  {
+    "Name": "커피가게동경",
+    "Score": 3.6,
+    "Time": "월,일요일",
+    "Link": "https://place.map.kakao.com/20808938",
+    "Address": " 서울 마포구 망원로6길 21 지하(지번) 망원동 410-1",
+    "Latitude": 37.5559099,
+    "Longitude": 126.9035384
+  },
+  {
+    "Name": "오랑지",
+    "Score": 4.6,
+    "Time": "영업시간 월,수,목,금,토,일 12:00 ~ 20:00",
+    "Link": "https://place.map.kakao.com/1007372949",
+    "Address": " 서울 마포구 동교로38길 13 2층(지번) 연남동 390-71",
+    "Latitude": 37.562007,
+    "Longitude": 126.924974
+  },
+  {
+    "Name": "카페요호",
+    "Score": 4,
+    "Time": "영업시간 토,일 10:00 ~ 20:00",
+    "Link": "https://place.map.kakao.com/1248819302",
+    "Address": " 서울 마포구 잔다리로 88 1층(지번) 서교동 459-13",
+    "Latitude": 37.5551889,
+    "Longitude": 126.9158129
+  },
+  {
+    "Name": "콜린",
+    "Score": 3.7,
+    "Time": "월,화,수,목,일 10:30 ~ 01:00",
+    "Link": "https://place.map.kakao.com/26966842",
+    "Address": " 서울 마포구 어울마당로 45 1, 2층(지번) 서교동 403-13",
+    "Latitude": 37.549296,
+    "Longitude": 126.9205122
+  },
+  {
+    "Name": "빌리프커피로스터스",
+    "Score": 3.3,
+    "Time": "매일 09:30 ~ 23:30",
+    "Link": "https://place.map.kakao.com/26611450",
+    "Address": " 서울 마포구 양화로11길 50 1층(지번) 서교동 384-3",
+    "Latitude": 37.5522988,
+    "Longitude": 126.9139942
+  },
+  {
+    "Name": "시루케이크",
+    "Score": 4.4,
+    "Time": "일요일",
+    "Link": "https://place.map.kakao.com/436951953",
+    "Address": " 서울 마포구 어울마당로1길 18 1층(지번) 합정동 355-8",
+    "Latitude": 37.5467352,
+    "Longitude": 126.9182428
+  },
+  {
+    "Name": "콩카페 연남점",
+    "Score": 3.5,
+    "Time": "매일 11:00 ~ 23:00",
+    "Link": "https://place.map.kakao.com/1178288045",
+    "Address": " 서울 마포구 성미산로 161-14 1층(지번) 연남동 223-114",
+    "Latitude": 37.5653384,
+    "Longitude": 126.9237172
+  },
+  {
+    "Name": "비트포비아 던전홍대점",
+    "Score": 4.4,
+    "Time": "토,일 10:00 ~ 23:50",
+    "Link": "https://place.map.kakao.com/1246652450",
+    "Address": " 서울 마포구 독막로3길 30(지번) 서교동 396-46",
+    "Latitude": 37.5495415,
+    "Longitude": 126.9173161
+  },
+  {
+    "Name": "버터밀크",
+    "Score": 4,
+    "Time": "",
+    "Link": "https://place.map.kakao.com/26966117",
+    "Address": " 서울 마포구 와우산로 130 1층(지번) 창전동 6-131",
+    "Latitude": 37.55334,
+    "Longitude": 126.9279483
+  },
+  {
+    "Name": "그레인",
+    "Score": 4.3,
+    "Time": "영업시간 월,목,금,토,일 09:00 ~ 19:00",
+    "Link": "https://place.map.kakao.com/1450314310",
+    "Address": " 서울 마포구 동교로46길 23(지번) 연남동 385-6",
+    "Latitude": 37.5622869,
+    "Longitude": 126.9260306
+  },
+  {
+    "Name": "아이엠베이글 공덕점",
+    "Score": 4.4,
+    "Time": "영업시간 토,일 09:00 ~ 20:00",
+    "Link": "https://place.map.kakao.com/27494588",
+    "Address": " 서울 마포구 백범로 152 공덕파크자이 101동(지번) 공덕동 476",
+    "Latitude": 37.5451763,
+    "Longitude": 126.9475472
+  },
+  {
+    "Name": "키쉬미뇽",
+    "Score": 3.1,
+    "Time": "매일 10:00 ~ 24:00",
+    "Link": "https://place.map.kakao.com/71785169",
+    "Address": " 서울 마포구 양화로6길 35(지번) 서교동 394-16",
+    "Latitude": 37.5490727,
+    "Longitude": 126.9162059
+  },
+  {
+    "Name": "공상온도",
+    "Score": 4,
+    "Time": "매일 12:30 ~ 23:00",
+    "Link": "https://place.map.kakao.com/27379281",
+    "Address": " 서울 마포구 동교로23길 40 지하 1층(지번) 동교동 203-11",
+    "Latitude": 37.5576275,
+    "Longitude": 126.9197853
+  },
+  {
+    "Name": "이미커피",
+    "Score": 4.2,
+    "Time": "수~일 12:00 ~ 21:00",
+    "Link": "https://place.map.kakao.com/15985522",
+    "Address": " 서울 마포구 동교로25길 7 1층(지번) 동교동 201-10",
+    "Latitude": 37.5574377,
+    "Longitude": 126.9218955
+  },
+  {
+    "Name": "페어",
+    "Score": 3.7,
+    "Time": "매일 12:00 ~ 22:00",
+    "Link": "https://place.map.kakao.com/850695065",
+    "Address": " 서울 마포구 잔다리로7안길 23 1층(지번) 서교동 378-12",
+    "Latitude": 37.5521417,
+    "Longitude": 126.9164093
+  },
+  {
+    "Name": "민트하임",
+    "Score": 3.9,
+    "Time": "매일 11:30 ~ 21:00",
+    "Link": "https://place.map.kakao.com/27515050",
+    "Address": " 서울 마포구 잔다리로6길 28(지번) 서교동 366-28",
+    "Latitude": 37.5521387,
+    "Longitude": 126.9206092
+  },
+  {
+    "Name": "어나더룸 연남",
+    "Score": 4,
+    "Time": "토,일 11:00 ~ 21:00",
+    "Link": "https://place.map.kakao.com/1139651943",
+    "Address": " 서울 마포구 성미산로29안길 19-4 1층(지번) 연남동 241-88",
+    "Latitude": 37.5655159,
+    "Longitude": 126.9233174
+  },
+  {
+    "Name": "브루라티오 홍대점",
+    "Score": 4.1,
+    "Time": "매일 09:00 ~ 20:30",
+    "Link": "https://place.map.kakao.com/1090393616",
+    "Address": " 서울 마포구 잔다리로 28 1,2층(지번) 서교동 367-13",
+    "Latitude": 37.5511476,
+    "Longitude": 126.920215
+  },
+  {
+    "Name": "카페클로이인패리스",
+    "Score": 4.7,
+    "Time": "화~일 11:00 ~ 22:00",
+    "Link": "https://place.map.kakao.com/745327768",
+    "Address": " 서울 마포구 성미산로 190-3 1층(지번) 연남동 227-24",
+    "Latitude": 37.5626855,
+    "Longitude": 126.9261573
+  },
+  {
+    "Name": "W카페",
+    "Score": 2.4,
+    "Time": "토,일 11:00 ~ 23:00",
+    "Link": "https://place.map.kakao.com/11933564",
+    "Address": " 서울 마포구 동교로25길 16(지번) 동교동 200-18",
+    "Latitude": 37.5578764,
+    "Longitude": 126.921682
+  },
+  {
+    "Name": "테일러커피 연남2호점",
+    "Score": 4.3,
+    "Time": "매일 11:00 ~ 22:00",
+    "Link": "https://place.map.kakao.com/1840810990",
+    "Address": " 서울 마포구 성미산로 187 1, 2층(지번) 연남동 224-57",
+    "Latitude": 37.5632336,
+    "Longitude": 126.9261969
+  },
+  {
+    "Name": "디벙크",
+    "Score": 4.4,
+    "Time": "일 11:00 ~ 21:00",
+    "Link": "https://place.map.kakao.com/1040119941",
+    "Address": " 서울 마포구 성지1길 30 더보이드빌딩 지하1층(지번) 합정동 366-1",
+    "Latitude": 37.5476356,
+    "Longitude": 126.9151903
+  },
+  {
+    "Name": "무대륙",
+    "Score": 3.6,
+    "Time": "매일 11:00 ~ 01:00",
+    "Link": "https://place.map.kakao.com/7876611",
+    "Address": " 서울 마포구 토정로5길 12(지번) 합정동 357-7",
+    "Latitude": 37.545415,
+    "Longitude": 126.9184557
+  },
+  {
+    "Name": "카페 지금여기",
+    "Score": 3.7,
+    "Time": "영업시간 매일 11:00 ~ 20:00",
+    "Link": "https://place.map.kakao.com/36768345",
+    "Address": " 서울 마포구 양화로16길 30-5 3층(지번) 서교동 369-42",
+    "Latitude": 37.5527109,
+    "Longitude": 126.9212076
+  }
+]

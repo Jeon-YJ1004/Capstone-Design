@@ -1,38 +1,79 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta name="theme-color" content="#000000"/>
+<html>
+  <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8"/>
+    <meta name="theme-color" content="#000000"/>
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400" rel="stylesheet" />
-    <!-- <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/> -->
-
+    <link href="../src/styles/searchbar.css" rel="stylesheet" />
+    <link href="../src/styles/main.css" rel="stylesheet"/>
     <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
     />
     <script type="text/javascript"
-            src="//dapi.kakao.com/v2/maps/sdk.js?appkey=7aa57e37c447ed23e244b6370b307e73&libraries=services&autoload=false"></script>
+        src="//dapi.kakao.com/v2/maps/sdk.js?appkey=7aa57e37c447ed23e244b6370b307e73&libraries=services&autoload=false"></script>
     <script type="text/javascript">
-        kakao.maps.load(function () {
-            // v3가 모두 로드된 후, 이 콜백 함수가 실행됩니다.
-            var map = new kakao.maps.Map(node, options);
-        });
+    kakao.maps.load(function () {
+        // v3가 모두 로드된 후, 이 콜백 함수가 실행됩니다.
+        var map = new kakao.maps.Map(node, options);
+    });
     </script>
 
     <title>SweetRoad</title>
 </head>
 
 <body>
+<!-- <script src="../src/components/background.js"></script> -->
 <div id="root"></div>
-
-<div id="background"></div>
-
-<script src="..\src\components\background.js"></script>
-<script src="js/extention/choices.js"></script>
+<!-- 
+    <div class="s132">
+      <form>
+        <div class="inner-form">
+          <div class="input-field first-wrap">
+            <div class="input-select">
+              <select data-trigger="" name="choices-single-defaul">
+                                <option placeholder="">Category</option>
+                                <option value="마포구">마포구</option>
+                                <option value="서대문구">서대문구</option>
+                                <option value="은평구">은평구</option>
+                                <option value="종로구">종로구</option>
+                                <option value="중구">중구</option>
+                                <option value="용산구">용산구</option>
+                                <option value="성동구">성동구</option>
+                                <option value="광진구">광진구</option>
+                                <option value="동대문구">동대문구</option>
+                                <option value="성북구">성북구</option>
+                                <option value="강북구">강북구</option>
+                                <option value="강서구">강서구</option>
+                                <option value="도봉구">도봉구</option>
+                                <option value="중랑구">중랑구</option>
+                                <option value="강동구">강동구</option>
+                                <option value="송파구">송파구</option>
+                                <option value="관악구">관악구</option>
+                                <option value="동작구">동작구</option>
+                                <option value="영등포구">영등포구</option>
+                                <option value="금천구">금천구</option>
+                                <option value="구로구">구로구</option>
+                                <option value="강남구">강남구</option>
+                                <option value="서초구">서초구</option>
+                                <option value="노원구">노원구</option>
+              </select>
+            </div>
+          </div>
+          <div class="input-field second-wrap">
+            <input id="search" type="text" placeholder="Enter Keywords" />
+          </div>
+          <div class="input-field third-wrap">
+            <button class="btn-search" type="submit" >Search</button>
+          </div>
+        </div>
+      </form>
+    </div>
+     -->
+    <script src="js/extention/choices.js"></script>
     <script>
       const choices = new Choices('[data-trigger]',
       {
@@ -41,6 +82,5 @@
       });
 
     </script>
-</body>
-
+  </body>
 </html>

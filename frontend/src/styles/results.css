@@ -1,52 +1,55 @@
+body{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) );
+}
+ul{
+    list-style: none;
+}
 .ant-row {
-  background: white;
-  position: relative;
+    position: relative;
 }
 
-/* .sort {
-    float: right;
-    margin-top: 0.5em;
-    margin-right: 1em;
-} */
-
 .ant-card {
-  border-radius: 10px;
+    border-radius: 10px;
 }
 
 .list {
-  height: 49vh;
-  overflow: scroll;
+    height: 49vh;
+    /*overflow: scroll;*/
+    border-collapse: separate;
+    border-spacing: 1px;
+    text-align: left;
+    line-height: 1.5;
+    border-top: 1px solid #ccc;
+    margin : 20px 10px;
+
 }
 
 .listItem,
 .ant-card {
-  margin: 0.5em;
+    margin: 0.5em;
 }
 
-/* .listItem img {
-    width: 15vw;
-    height: 10vw;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-right: 2em;
-    float: left;
-} */
-
 .listItem .ant-rate {
-  float: right;
-  position: absolute;
-  right: 0;
-  top: 0;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 .listItem p {
-  font-size: 1.2em;
+    font-size: 1.2em;
 }
 
-/* .anticon-heart {
-  color: #dcdcdc;
-  font-size: 2em;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-} */
+#map{
+    height: 40vh;
+    left:100px;
+    margin:50px 0px 50px 0px;
+
+}
+.info{
+    font-size: 1.1em;
+    color:white;
+}
+.info h2{
+    font-weight: bold;
+}

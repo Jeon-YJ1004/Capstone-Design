@@ -1,6 +1,5 @@
 /*global kakao*/
 import React from "react";
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import {Link} from 'react-router-dom';
 import {useState, useEffect, useCallback} from 'react';
 import {useParams} from 'react-router-dom';
@@ -10,10 +9,10 @@ import {Divider} from 'antd';
 import {faMapMarkerAlt} from '@fortawesome/free-solid-svg-icons';
 import Star from '../../components/cafe/Star';
 import {InfoWrapper} from '../../globalStyles';
-import Location from "./Location";
+
 import {cafeService} from '../../service/cafes';
 import {Map} from './Location.style';
-import Pathfind from './pathfind';
+import'../../styles/info.css';
 import {
     FlexContainer,
     InfoItem,
@@ -32,14 +31,14 @@ function CafeInfo() {
     const [cafe, setCafe] = useState({});
     useEffect(() => {
         getCafeInfo();
-      }, []);
-    
+    }, []);
+
     useEffect(() => {
         getCafeInfo();
     }, []);
     let {id} = useParams();
     const cafeId = parseInt(id);
-    const {name, score, time, address,link,longitude,latitude} = cafe;
+    const {name, score, time, address, link, longitude, latitude} = cafe;
 
     const getCafeInfo = async () => {
         try {
@@ -64,25 +63,16 @@ function CafeInfo() {
             console.log(e.message);
         }
     };
-    // const onPathClick = (cafId) => {
-    //     props.history.push({
-    //         pathname: `/pathfind/${cafe.id}`,
-    //         state: {cafe},
-    //     });
-    // };
-
-
+    console.log(link)
     return (
-        <div>
-
+        <div className="back">
             <TitleContainer>
                 <NameContainer>
                     <Name>{name}</Name>
                 </NameContainer>
-                <Star score={score}/>
+                {/*<Star score={score}/>*/}
             </TitleContainer>
-
-            <Divider/>
+            <div className="divider"></div>
 
             <InfoList>
                 {address && (
@@ -98,19 +88,17 @@ function CafeInfo() {
                     </InfoItem>
                 )}
             </InfoList>
-            <FlexContainer>
-                <Locationpath>
-                    <InfoWrapper>
-                        <h1>LOCATION</h1>
-                        <Map id="map"/>
-                    </InfoWrapper>
-                    <Link to={{pathname: "/pathfind", search: `?cafeId=${cafeId}`}}>
-                    </Link>
-                    {/* <div className="path" onClick={() => onPathClick()}>
-                        길찾기
-                    </div> */}
-                </Locationpath>
-            </FlexContainer>
+            <div class="location">
+                <h1>LOCATION</h1>
+                <Map id="map"/>
+                <div className="path">
+                    <span>How can I go?</span>
+                    <a id="link" href ={link}>Find the Path</a>
+                </div>
+
+            </div>
+
+            {/*</Locationpath>*/}
 
         </div>
     );
