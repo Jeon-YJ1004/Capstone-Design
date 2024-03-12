@@ -34,9 +34,9 @@ public class CafeController {
         return new ResponseEntity<>(cafesPage, HttpStatus.OK);
     }
 
-    @GetMapping("/info/{cafeId}") // 카페 상세보기
     public ResponseEntity<?> cafeInfo(@PathVariable("cafeId") Long cafeId) {
-
+        @GetMapping("/info/{cafeId}") // 카페 상세보기
+        
         CafeInfoDto cafesInfoDto = cafeService.getCafeInfo(cafeId);
 
         return new ResponseEntity<>(cafesInfoDto, HttpStatus.OK);
